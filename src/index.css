@@ -1,0 +1,46 @@
+/**
+*/
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1533460004989-cef01064af7e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3Jhc3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+  
+  background-size: cover;
+  
+  text-shadow: 1px 1px black;
+  display: grid;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  grid-template-columns: 100px 200px;
+  grid-template-rows: auto auto auto auto auto auto;
+}
+
+div.Input {
+  display: grid;
+  grid-template-columns: 300px 200px auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto;
+  grid-column: 3 / span 3;
+  grid-row: 2;
+  row-gap: 15px;
+  column-gap: 10px;
+  padding: 10px;
+  font-size: 22;
+  background-color: pink;
+  color: white;
+  transition-property: color;
+  transition-duration: .5s;
+}
+
+
+
+.title {
+  grid-column: 1 / span 5;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.486);
+  color: white;
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-style: dotted;
+
+  font-size: 36px;
+}
